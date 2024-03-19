@@ -10,6 +10,8 @@ public class MemberController {
 	public String listMember() {
 		System.out.println("회원목록 기능 추가함");
 		return "회원목록";
-	}
-	
-}
+
+
+		
+		
+	}}
