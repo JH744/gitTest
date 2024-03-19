@@ -9,9 +9,13 @@ public class MemberController {
 	@GetMapping("/listMember")
 	public String listMember() {
 		System.out.println("회원목록 기능 추가함");
-		return "회원목록";
 
 
 		
-		
-	}}
+		System.out.println("충돌테스트");
+		System.out.println("충돌테스트1");
+		return "멤버목록";
+	
+	}	
+}
+
