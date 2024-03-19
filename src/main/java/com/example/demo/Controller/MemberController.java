@@ -9,6 +9,9 @@ public class MemberController {
 
 	@GetMapping("/memberlist")
 	public String memberlist() {
+		
+		System.out.println("충돌테스트");
+		
 		return "멤버목록";
 	}
 	
